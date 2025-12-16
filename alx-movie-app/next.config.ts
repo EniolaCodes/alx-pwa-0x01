@@ -11,6 +11,8 @@ const nextConfig = {
   images: {
     domains: ["m.media-amazon.com"],
   },
+  // Explicitly set an empty turbopack config to silence turbopack warnings
+  turbopack: {},
 };
 
 export default withPWA({
